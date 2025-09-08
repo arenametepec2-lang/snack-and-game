@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Snack & Game • Arena The Place to Play</title>
+  <meta name="description" content="Locatarios de TownSquare Metepec: hot dog + tiempo de juego por $99. Escanea y disfruta tu break gamer." />
+  <meta name="theme-color" content="#6a0dad" />
+  <meta property="og:title" content="Snack & Game • Arena The Place to Play" />
+  <meta property="og:description" content="Locatarios de TownSquare Metepec: hot dog + tiempo de juego por $99." />
+  <meta property="og:image" content="promo.jpg" />
+  <meta property="og:type" content="website" />
+  <style>
+    :root {
+      --bg1:#1a002b; --bg2:#2a0044; --txt:#fff; --muted:#d0c4e0;
+      --brand1:#a347ff; --brand2:#ff2ef2; --brand3:#ffc300;
+      --card:#1b0033; --border:#3a0055; --radius:20px;
+      --wa:#25D366;
+    }
+    * { box-sizing:border-box; }
+    html, body { margin:0; padding:0; background: linear-gradient(160deg, var(--bg1), var(--bg2)); color:var(--txt); font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial; }
+    .wrap { max-width:960px; margin:0 auto; padding:24px; }
+    .card { background: rgba(0,0,0,0.4); border:1px solid var(--border); border-radius:var(--radius); padding:24px; box-shadow:0 10px 30px rgba(0,0,0,.6); }
+    header { display:flex; align-items:center; gap:16px; flex-wrap:wrap; }
+    header img.logo { height:56px; width:auto; border-radius:12px; }
+    h1 { font-size: clamp(28px, 3vw, 40px); margin:0; line-height:1.1; color:#fff; }
+    .sub { color:var(--muted); margin-top:6px; }
+    .hero { display:grid; grid-template-columns: 1.2fr 1fr; gap:20px; margin-top:24px; }
+    @media (max-width:860px) { .hero { grid-template-columns:1fr; } }
+    .preview { background:#000; border-radius:16px; border:1px solid var(--border); overflow:hidden; display:flex; align-items:center; justify-content:center; min-height:320px; }
+    .preview img { width:100%; height:auto; display:block; object-fit:contain; }
+    .panel { display:flex; flex-direction:column; gap:16px; }
+    .price { font-size:clamp(28px, 4vw, 48px); font-weight:800; background:linear-gradient(90deg, var(--brand1), var(--brand2)); -webkit-background-clip:text; background-clip:text; color:transparent; }
+    .cta { display:flex; flex-wrap:wrap; gap:10px; }
+    .btn { appearance:none; border:none; padding:14px 18px; border-radius:14px; font-weight:700; cursor:pointer; transition: transform .08s ease, box-shadow .2s ease, background .2s; }
+    .btn:active { transform: translateY(1px); }
+    .btn-primary { background: linear-gradient(90deg, var(--brand1), var(--brand2)); color:#fff; box-shadow: 0 8px 20px rgba(0,0,0,.3); text-decoration:none; display:inline-block; }
+    .btn-ghost { background: transparent; color:#fff; border:1px solid var(--border); text-decoration:none; display:inline-block; }
+    .tnc { margin-top:8px; }
+    details { background:#2a0044; border:1px solid var(--border); border-radius:14px; padding:14px 16px; }
+    details summary { cursor:pointer; font-weight:700; }
+    footer { margin-top:24px; color:var(--muted); font-size:14px; display:flex; justify-content:space-between; gap:10px; flex-wrap:wrap; }
+
+    /* WhatsApp floating button */
+    .wa-fab {
+      position: fixed; right: 18px; bottom: 18px;
+      background: var(--wa); color:#fff; border-radius:999px;
+      width: 58px; height: 58px; display:flex; align-items:center; justify-content:center;
+      box-shadow: 0 10px 20px rgba(0,0,0,.35); text-decoration:none; font-size:28px;
+    }
+    .wa-fab:hover { filter: brightness(1.05); }
+    .wa-label { position: fixed; right: 86px; bottom: 28px; background:#202020; color:#fff; padding:8px 12px; border-radius:10px; border:1px solid #333; font-weight:600; }
+    @media (max-width:600px) { .wa-label { display:none; } }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="card">
+      <header>
+        
+        <div>
+          <h1>Snack &amp; Game</h1>
+          <div class="sub">Locatarios de TownSquare Metepec • Versus Zone &amp; Next Level</div>
+        </div>
+      </header>
+
+      <div class="hero">
+        <div class="preview">
+          <img src="promo.jpg" alt="Imagen de la promoción Snack &amp; Game" loading="lazy" />
+        </div>
+        <div class="panel">
+          <div class="price">$99 MXN</div>
+          <div style="display:grid; grid-template-columns:1fr 1fr; gap:12px;">
+            <div style="padding:6px 10px; border-radius:999px; background:#151515; border:1px solid var(--border);">🌭 Hot dog</div>
+            <div style="padding:6px 10px; border-radius:999px; background:#151515; border:1px solid var(--border);">🎮 Tiempo de juego</div>
+          </div>
+
+          <div class="cta">
+            <a class="btn btn-primary" href="promo.jpg" target="_blank" rel="noopener">Ver imagen</a>
+            <a class="btn btn-ghost" href="promo.jpg" download="SnackAndGame.jpg">Descargar</a>
+          </div>
+
+          <div class="tnc">
+            <details open>
+              <summary>Ver términos y condiciones</summary>
+              
+<h3>Términos y condiciones</h3>
+<ul>
+  <li>Promoción válida únicamente para locatarios de TownSquare Metepec.</li>
+  <li>Es necesario presentar identificación laboral, gafete o uniforme que compruebe que trabajas en la plaza.</li>
+  <li>Precio único: $99 MXN por combo de hot dog + tiempo de juego.</li>
+  <li>Tiempo de juego válido en:</li>
+  <ul>
+    <li>Versus Zone</li>
+    <li>Next Level</li>
+  </ul>
+  <li>Sujeto a disponibilidad de cabinas y consolas.</li>
+  <li>Válido únicamente en horario de 1:00 p.m. a 9:00 p.m.</li>
+  <li>No acumulable con otras promociones o descuentos.</li>
+  <li>Arena The Place to Play se reserva el derecho de modificar o finalizar la promoción sin previo aviso.</li>
+</ul>
+
+            </details>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div>© 2025 Arena The Place to Play</div>
+        <div>Hecho para compartir rápido — sin necesidad de apps.</div>
+      </footer>
+    </div>
+  </div>
+
+  <!-- WhatsApp FAB -->
+  <a class="wa-fab" href="https://wa.me/527294900879?text=Hola%20Arena%20The%20Place%20to%20Play,%20soy%20locatario%20de%20TownSquare%20Metepec%20y%20quiero%20aprovechar%20la%20promo%20Snack%20%26%20Game." target="_blank" rel="noopener" aria-label="WhatsApp">
+    💬
+  </a>
+  <div class="wa-label">¿Dudas? Escríbenos</div>
+</body>
+</html>
